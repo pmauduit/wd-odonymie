@@ -27,4 +27,15 @@ la hiérarchie des objets WD:
 
 https://wdq.wmflabs.org/api?q=string[1282:%22Key:highway%22]
 
+Retrouver tous les objets taggués avec la clé OSM "highway=" qui ont une entrée
+WD:
+
+P31: "instance of"
+
+https://wdq.wmflabs.org/api?q=claim[31:54114,88372,130954,445741,476352,510662,896009,907698,1006835,1133961,1251403,1308100,1571667,1787825,2144951,4471634,7543083,12163562,15070223,15212722]
+
+172 objets, pas beaucoup ... :-)
+
+utiliser une requete tree à la place ?
+
 
