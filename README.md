@@ -36,6 +36,10 @@ https://wdq.wmflabs.org/api?q=claim[31:54114,88372,130954,445741,476352,510662,8
 
 172 objets, pas beaucoup ... :-)
 
-utiliser une requete tree à la place ?
+utiliser une requete tree à la place ? Réponse: oui:
 
+
+https://wdq.wmflabs.org/api?q=tree[54114,88372,130954,445741,476352,510662,896009,907698,1006835,1133961,1251403,1308100,1571667,1787825,2144951,4471634,7543083,12163562,15070223,15212722][][31]
+
+1526 objets ...
 
