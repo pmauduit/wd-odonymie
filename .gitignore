@@ -2,3 +2,4 @@ dumpfiles/
 .project
 .classpath
 target/
+data/
