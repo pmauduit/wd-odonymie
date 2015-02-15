@@ -43,3 +43,10 @@ https://wdq.wmflabs.org/api?q=tree[54114,88372,130954,445741,476352,510662,89600
 
 1526 objets ...
 
+Il faudrait trouver le moyen de faire marcher les sous-requêtes:
+tree[(claim[279:79007])][][31]
+marche pas.
+
+Exemple de sous-requete qui fonctionne:
+https://wdq.wmflabs.org/api?q=claim[31:(TREE[12280][][279])]%20AND%20tree[183][150][17,131]
+
