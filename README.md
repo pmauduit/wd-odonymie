@@ -50,3 +50,14 @@ marche pas.
 Exemple de sous-requete qui fonctionne:
 https://wdq.wmflabs.org/api?q=claim[31:(TREE[12280][][279])]%20AND%20tree[183][150][17,131]
 
+Trouver les coordonnées géo des lavoirs de Wikidata
+=====================================================
+
+```
+% curl  -gs 'https://wdq.wmflabs.org/api?q=claim[31:1690211]&props=625'
+```
+
+* `P31`: instance of
+* `Q1690211`: lavoir
+* `625`: coordonées géographiques
+
